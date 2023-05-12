@@ -1,0 +1,85 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://rosekeaney.github.io/My-IIIF-Project/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Botrychium Lunaria",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Atkins, Anna",
+  "sequences" : [ {
+    "@id" : "http://ee8eda9e-289c-4080-a058-06026960efea",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://48c9a9c0-865d-4c58-a50b-152c2a34791b",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 5567,
+      "width" : 4436,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cb7a4cd9-2674-499f-a209-daa11cdda964",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://media.getty.edu/iiif/image/04e81d6e-ce9c-4a17-b1cf-d00b1bf92173/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://media.getty.edu/iiif/image/04e81d6e-ce9c-4a17-b1cf-d00b1bf92173",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 30000,
+              "maxHeight" : 30000
+            } ]
+          },
+          "height" : 5567,
+          "width" : 4436
+        },
+        "on" : "http://48c9a9c0-865d-4c58-a50b-152c2a34791b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://05d5f767-b8f0-477a-b585-4751feea5d96",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 5817,
+      "width" : 4784,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f53a23a6-93a3-4b9b-8f10-911fa95a1b6b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/445001423/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/445001423",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5817,
+          "width" : 4784
+        },
+        "on" : "http://05d5f767-b8f0-477a-b585-4751feea5d96"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
